@@ -7,12 +7,14 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "build": "tsup src/index.ts --format esm,cjs --dts"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@design-system-ui/eslint-config": "*",
     "@design-system-ui/ts-config": "*",
     "@design-system-ui/tokens": "*",
     "tsup": "^8.0.2",

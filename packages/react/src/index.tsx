@@ -1,5 +1,12 @@
-import { colors } from '@design-system-ui/tokens'
+import { styled } from './styles'
+
+const Button = styled('button', {
+  fontFamily: '$default',
+  backgroundColor: '$green500',
+  borderRadius: '$md',
+  padding: '$4',
+})
 
 export function App() {
-  return <h1 style={{ color: colors.green300 }}>Hello world</h1>
+  return <Button>Click Me!</Button>
 }

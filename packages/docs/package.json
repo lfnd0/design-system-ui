@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@design-system-ui/react": "*",
+    "@design-system-ui/tokens": "*",
+    "@design-system-ui/eslint-config": "*"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.26",

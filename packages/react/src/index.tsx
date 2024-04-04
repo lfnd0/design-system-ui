@@ -1,7 +1,9 @@
+import { type CSS } from '@stitches/react'
 import { styled } from './styles'
 
 export type ButtonProps = {
   size: 'small' | 'big'
+  css: CSS
 }
 
 export const Button = styled('button', {

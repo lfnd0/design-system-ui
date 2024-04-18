@@ -10,6 +10,7 @@ export default {
 } as Meta<HeadingProps>
 
 export const Primary: StoryObj<HeadingProps> = {}
+
 export const CustomTag: StoryObj<HeadingProps> = {
   args: {
     children: 'Lorem ipsum',

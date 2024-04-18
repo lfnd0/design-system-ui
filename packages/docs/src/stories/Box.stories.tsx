@@ -1,13 +1,13 @@
-import { Box, BoxProps } from '@design-system-ui/react'
+import { Box, BoxProps, Text } from '@design-system-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Form/Box',
+  title: 'Surfaces/Box',
   component: Box,
   args: {
     children: (
       <>
-        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+        <Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</Text>
       </>
     ),
   },
